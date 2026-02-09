@@ -55,7 +55,6 @@
     box-shadow: 0 4px 15px rgba(225, 29, 72, 0.4);
 }
 
-/* NO BUTTON MAGIC */
 .no-btn{
     background-color: #f1f5f9;
     color: #475569;
@@ -69,8 +68,8 @@
     position: relative;
 }
 
-/* Once hover starts, button floats freely */
+
 .no-btn.move {
-    position: fixed;   /* 🔥 THIS MAKES IT ESCAPE CARD */
+    position: fixed;   
     z-index: 1000;
 }
